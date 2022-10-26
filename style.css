@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: revert;
+
+  }
+  .container{
+    width: 80%;
+    margin: 0px auto;
+  }
+  .content{
+    margin-top: -19%;
+  }
+  .parent{
+    padding: 20px;
+    
+  }
+  .child{
+    padding:19px;
+    width: 21.2%;
+    margin-right: 1%;
+    display: inline-block;
+    background-color:white;
+    overflow: hidden;
+    height: 370px;
+  }
+  
+  .child h2{
+    margin-bottom: 20px;
+  }
+  .content .container .parent .child div{
+    width: 49%;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .securily{
+    background-color:transparent; text-align: center;
+  }
+  .securily #buttonsecurily{
+    background-color:white; width:110%;height: 40%; margin-top: -17px; 
+   }
+   #buttonsecurily h2{
+    margin-top: 15px;
+   }
+   #buttonsecurily button{
+    width:85%;
+    background-color:rgb(247, 212, 13) ;
+    border: none;
+     border-radius: 6px; 
+     height: 24%;
+   }
+   #imgsecurily{
+    margin-top: 40px; 
+    display: block;
+     margin-left: 5%;
+     margin-top: 15px;
+   }
+  
+  #kindle,#new_arrival,#shop_activ,#home_kitchen,#decort,#statement,#fashion,#hallown,#shoppet,#gaming,#foryou,#create{
+    margin-top: 20px; display: block;
+  }
+  body{
+    overflow-x: hidden;
+    background-color: rgb(231, 229, 229);
+  }
+  a{
+    border-radius: 5px;
+    padding: 0px 10px;
+    
+  }
+  #navbar1 div a{
+    border: 2px solid rgb(19, 24, 36);
+    border-radius: 5px;
+    padding: 0px 10px;
+  }
+  #toy ,#coputer{
+    margin-top: 40px; display: block;
+  }
+  .freqscroll{
+    margin-top: 10px; width: 96.5%; height: 29%;
+  }
+#freqimgs, #homescroll,#internationalscroll,#popularscroll,#stuffimgs,#popuPCimgs,#giftsimgs{
+    width: 1430px; 
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+  }
+  #navbar1 div a:hover{
+    border:2px solid white;
+  }
+  .section_hallown,.section_shoppet{
+    width:310px; height: 290px;
+  }
+  #navbar1{  
+    background-color:rgb(19, 24, 36);
+    width:100%; 
+    vertical-align: top;
+    padding: 5px 10px;
+    /* overflow: hidden; */
+  }
+  #navbar2 div a:hover{
+    border:2px solid white;
+  }
+  #navbar2 div a{
+    border:2px solid rgb(31, 37, 51)
+  }
+  #navbar2 div ,#navbar2 a,#navbar2 p{
+    display: inline-block;
+  }
+  .all div{
+    background-color: rgb(31, 37, 51); margin-top:12px;
+  }
+  .allp1 {
+    font-weight: bold;
+  }
+  .child{
+    position: relative;
+  }
+.seemore {
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  #navbar1 div{
+    display: inline-block;
+    vertical-align: top;
+  }
+  #navbar1 img , #navbar1 a {
+    display: inline-block;
+  }
+
+  .a1navbar1{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .a1navbar1 p{
+    vertical-align: top;
+  }
+  .p1navbar1{
+    color:rgb(198, 193, 193);
+    width: 90px;
+    margin-bottom: 15px;
+  }
+  .p2navbar1{
+    margin-top: -10px;
+  }
+  .serch{
+    margin-top: 15px;
+  }
+  .serch select{
+    color:white; 
+    background-color:rgb(205, 206, 208);
+    width: 50px; 
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .serch input{
+    height:40px;
+    width:1030px;
+    margin-left:-4px;
+  }
+  .serch button{
+    background-color:rgb(249, 130, 56);
+    height:40px;width:40px ; 
+    border-radius: 0px 5px 5px 0px;
+     border: 1px solid rgb(249, 130, 56);
+     margin-left: -10px;
+  }
+  .serch:hover * {
+    border: 2px solid rgb(249, 130, 56);
+  }
+  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .imgusa,.amazonimg,.dresses{
+    margin-top: 10px;
+  }
+  .imgusa a{
+    height: 50px;
+     margin-top: -10px;
+  }
+  .imgusa img{
+    padding-top: 20px;
+  }
+  .imgusa div{
+    padding-top: 30
+  }
+  .imgusa i,.signin a,.return a,.cart a,.all a{
+    color: white;
+  }
+  .signin, .return{
+    margin-top: 20px; 
+  }
+  .cart{
+    font-size: large; margin-top:8px;
+  }
+  .cart a{
+    height: 50px;
+  }
+  .cart i{
+    margin-top:20px;
+  }
+  .cart p,#navbar2 div{
+    display:inline-block
+  }
+#navbar2 {
+  background-color: rgb(31, 37, 51);
+   height: 42px; 
+  display: inline-block;
+   width: 100%;
+}
+
+#navbar2 .all{
+  margin-left: 15px;
+}
+ .finalupdate{
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #fff;
+  
+ }
+ .homedecor h2,.homedecor p,.stuffed h2,.stuffed p,.gifts h2,.gifts p{
+  display:inline-block
+ }
+ .finalupdate .child{
+  width: 7.5%;
+  margin-right: 2px;
+  text-align: left;
+ 
+ } 
+ .child i{
+  color: orange;
+ }
+.child a{
+  color: #007185;
+  text-decoration: none;
+}
+ .footer1 .child a{
+  display: block;
+  margin-bottom: 10px;
+  color:rgb(204, 197, 197);
+  
+ }
+.final_sectionsignin{
+  text-align:center ; padding-top: 30px; padding-bottom: 20px;
+}
+.finalsection{
+  padding-top: 20px; margin-top:30px;
+  border: 1px solid rgb(212, 208, 208); border-radius: 5px; 
+  margin-bottom: 15px;
+}
+.backto_up{
+  text-align: center;overflow: hidden;
+  padding: 20px 0px;
+  background-color: #37475A;
+}
+.backto_up a{
+  background-color: #37475A;
+  color:white;
+  padding: 10px 20px;
+}
+.finalsec_pargrapg{
+  color: #007185;
+}
+.Signin_button{
+  width:15%;background-color:rgb(243, 175, 29) ;
+  border: none; border-radius: 6px; 
+  height:3%; font-weight: bold;
+}
+ .finalupdate h3{
+  text-align:left; padding-left: 20px;
+ }
+ .footer1 .child h3{
+  margin-bottom: 20px;
+  margin-left: 6px;
+ }
+ .footer1{
+  background-color:#232F3E;
+ }
+ .about_amazong{
+  width: 60%; 
+  margin: 0px auto;
+ }
+.footer_usaimg{
+  vertical-align: middle;
+}
+.final_word_inwebset{
+  color:white; text-align:center;
+}
+.fa-up-down{
+  color:rgb(117, 109, 109);
+}
+ .about_amazong .child{
+  width:20%; background-color: #232F3E;color: #fff;
+ }
+ .footer2{
+  width: 45%;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 40px 0px;
+  /* vertical-align: middle; */
+}
+ .footer2 > div{
+ float: left; 
+ }
+ .footer2 .logo img{
+  margin-right: 60px;
+ }
+ .footer2 div button{
+  margin-top: 1px;
+  background-color: transparent;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid  rgb(167, 178, 228);
+  margin-right: 10px;
+  height: 45;
+  width: 180px;
+  border-radius: 5px;
+ }
+ .footer3 .child{
+  width:5%;
+  background-color: #fff;
+ }
+
+ .footer3{
+  background-color: #131A22;
+  padding: 80px 0px;
+ }
+ .footer3 .container{
+  width: 60%;
+ }
+ .footer3 .container > div{
+  display: inline-block;
+  width: 12%;
+  padding: 30px 10px;
+  color: #ccc;
+  font-size: 10px;
+  vertical-align: top;
+ }
+ .footer3 .container > div >div{
+  margin: 30px 0px;
+  
+ }
+ .footer3 .container a{
+  display: block;
+  color:rgb(129, 120, 120);
+ }
+ .footer3 h3{
+  margin-left: 9px;
+ }
+ .footer3 .container {
+   margin-top: -80px;
+ }
+ a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+ }
