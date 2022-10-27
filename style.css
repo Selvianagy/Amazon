@@ -9,6 +9,7 @@
   body{
     overflow-x: hidden;
     background-color: rgb(231, 229, 229);
+   
   }
   #navbar1 div a:hover,#navbar2 div a:hover{
     border:1px solid white;
@@ -62,6 +63,9 @@
   .p2_Deliverto{
     margin-top: -10px;
   }
+  .icon{
+    display: block;
+  }
   .search{
     margin-top: 15px;
   }
@@ -87,6 +91,10 @@
   }
   .search:hover * {
     border: 2px solid rgb(249, 130, 56);
+  }
+  .img:hover{
+     cursor: pointer;
+     opacity: 0.90;
   }
   .imgusa a{
     height: 50px;
